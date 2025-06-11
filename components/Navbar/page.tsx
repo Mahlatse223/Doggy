@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   return (
-    <nav className="p-4 sm:px-10 py-4 flex ">
+    <nav className="p-4 sm:px-10 py-4 flex">
 
       <div className="flex items-center justify-between w-full  ">
         <h1 className="text-2xl font-bold xl:  text-3xl">

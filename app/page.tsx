@@ -1,9 +1,14 @@
-import Image from "next/image";
+'use client';
+
+import Catalog from "@/Pages/catalog";
+
 
 export default function Home() {
   return (
-  <div>
- 
-  </div>
+
+    <>
+  <Catalog />
+    </>
+  
   );
 }
